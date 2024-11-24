@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+      "module": "esnext",           // or "es2020"
+      "target": "esnext",
+      "moduleResolution": "node",   // or "nodenext"
+      "jsx": "react-jsx",
+      "baseUrl": ".",
+      "paths": {
+        "@/*": ["resources/js/*"],
+        "ziggy-js": ["./vendor/tightenco/ziggy"]
+      }
+    },
+    "include": [
+      "resources/js/**/*"
+    ],
+    "exclude": [
+      "node_modules", "public"
+    ]
+  }
+  
